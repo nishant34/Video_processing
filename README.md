@@ -22,9 +22,9 @@ Now after entering the environment install the following packages.
 * imageio
 
 # Running the code
-First r
+First run the clustering code.
 ```javascript
-python train.py
+python pass_1.py
 
 ```
 And then to see the tensorboard results, in the  command line:
