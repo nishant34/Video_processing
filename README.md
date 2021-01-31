@@ -22,14 +22,19 @@ Now after entering the environment install the following packages.
 * imageio
 
 # Running the code
-First run the clustering code.
+First run the code to create the directory structure.
 ```javascript
-python pass_1.py
+python create_common_directories.py
+```
+Then run the clustering code for the complete genre. The genre can contain any number of videos.
+```javascript
+python complete_generator_cluster_generator.py
+```
+Then run the second pass clustering code for some more clustering.
+```javascript
+python pass_2.py
 
 ```
-And then to see the tensorboard results, in the  command line:
-```javascript
-python -m tensorboard.main --logdir=[PATH_TO_LOGDIR]
-```
+
 
 
