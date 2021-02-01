@@ -35,7 +35,7 @@ Then run the second pass clustering code for some more clustering.
 python pass_2.py
 
 ```
-Afte generating the final clsuters annotate the first frame in each cluster as these are semi supervised methods.
+Afte generating the final clusters annotate the first frame in each cluster as these are semi supervised methods.
 Now final clusters have been generated so after this run:
 ```javascript
 python directory_structure.py
@@ -43,6 +43,9 @@ python directory_structure.py
 ```
 
 This generates masks for a particular video to which path has been specified.
+This is for instance wise segmentation so color each new instance with a different color and color of a particular instance must be same across all the shots.
+Here is the glimpse for some of the frames of a musical video having singer as the instance.
+![Propagated Masks](https://github.com/nishant34/Video_processing/blob/main/Screenshot%20(680).png)
 
 
 
