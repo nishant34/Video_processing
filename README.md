@@ -35,6 +35,15 @@ Then run the second pass clustering code for some more clustering.
 python pass_2.py
 
 ```
+Afte generating the final clsuters annotate the first frame in each cluster as these are semi supervised methods.
+Now final clusters have been generated so after this run:
+```javascript
+python directory_structure.py
+
+```
+
+This generates masks for a particular video to which path has been specified.
+
 
 
 
